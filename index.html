@@ -29,7 +29,11 @@
 	var todo1= new Todo();
 	console.log(JSON.stringify(todo1));
 
-	Backbone.history.start();
+	var todo2= new Todo({
+		title:'build a backbone app',
+		completed:true
+	});
+	console.log(JSON.stringify(todo2));
 
 
 
